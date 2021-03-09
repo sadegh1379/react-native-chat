@@ -3,11 +3,11 @@
     "name": "ChatApp",
     "slug": "ChatApp",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "sdkVersion": "40.0.0",
+    "icon": "./assets/head.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -17,16 +17,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.chatapp.chatapp",
+      "buildNumber": "1.0.0"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "package": "com.chatapp.chatapp",
+      "versionCode": 1
+    }
     },
     "web": {
       "favicon": "./assets/favicon.png"
     }
-  }
 }
+
